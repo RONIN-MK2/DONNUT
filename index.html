@@ -9,36 +9,29 @@
         body {
             margin: 0;
             min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            position: relative;
             background: #f9f3e6;
-            font-family: Arial, sans-serif;
         }
 
-        .content {
-            text-align: center;
-        }
-
-        /* Заголовок красного цвета */
         h1 {
-            color: red;
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            font-family: Arial, sans-serif;
             font-size: 36px;
-            margin: 0 0 30px 0;
+            color: red;
         }
 
-        /* Изображение */
         img {
+            position: absolute;
+            bottom: 50px;
+            right: 50px;
             width: 200px;
-            display: block;
-            margin: 0 auto;
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <h1>Мир пончиков</h1>
-        <img src="/uploads/2023/02/donut.png" alt="Пончик">
-    </div>
+    <h1>Мир пончиков</h1>
+    <img src="/uploads/2023/02/donut.png" alt="Пончик">
 </body>
 </html>
